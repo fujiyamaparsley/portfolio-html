@@ -4,3 +4,43 @@
     margin: 0 auto;
     padding: 5px 0;
 }
+
+.m-article_text-block
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+{
+
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+} */
+
+.m_article_title  {
+  font-family: "游明朝";
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
