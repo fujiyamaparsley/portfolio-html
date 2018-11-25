@@ -5,23 +5,49 @@
     padding: 5px 0;
 }
 
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
 
-@media (max-width: @screen-xs-max) and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
 
-}
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) and (min-width: @screen-lg-min) {
-  .m-article_text-block　{
-    padding: 5px 0;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-  }
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
 
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
 
-  .m_article_title  {
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+
+@media screen and (max-width: 767.98px){
+.h2 { font-size:1rem;}
+
+  .m_article_text_block  {
     font-family: "游明朝";
     padding: 5px 0;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-  }
+}
+  .m_article_title  {
+      font-family: "游明朝";
+      padding: 5px 0;
+}
+}
 
- }
+@media screen and (min-width: 767.99px){
+.h2 { font-size:6rem;}
+
+.m_article_text_block  {
+  font-family: "游明朝";
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+
+.m_article_title  {
+  font-family: "游明朝";
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+}
