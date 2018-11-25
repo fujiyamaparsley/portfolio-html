@@ -21,26 +21,42 @@
 // No media query since the extra-large breakpoint has no upper bound on its width */
 
 @media screen and (max-width: 767.98px){
-.h2 { font-size:1rem;}
+
 
   .m_article_text_block  {
     font-family: "游明朝";
     padding: 5px 0;
+
 }
   .m_article_title  {
       font-family: "游明朝";
       padding: 5px 0;
+
 }
 }
 
-@media screen and (min-width: 767.99px){
-.h2 { font-size:6rem;}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .m_article_text_block  {
+    font-family: "游明朝";
+    padding: 5px 0;
+
+}
+  .m_article_title  {
+      font-family: "游明朝";
+      padding: 5px 0;
+
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
 .m_article_text_block  {
   font-family: "游明朝";
   padding: 5px 0;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
+  height:410px;
 }
 
 
@@ -49,5 +65,26 @@
   padding: 5px 0;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
+  height:410px;
+}
+}
+
+@media (min-width: 1200px)  {
+
+.m_article_text_block  {
+  font-family: "游明朝";
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  height:430px;
+}
+
+
+.m_article_title  {
+  font-family: "游明朝";
+  padding: 5px 0;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  height:430px;
 }
 }
